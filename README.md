@@ -200,4 +200,57 @@ Now refresh the osTicket site in your browser.
 From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
-<p>From ost-config.php, right click to access properties and select Advanced. We will Disable Inheritance and Remove all inherited permissions. Next, click Add -> Select a principal, enter "everyone" and select "Check names"</p>
+<p>From ost-config.php, right click to access properties and select Advanced. We will disable inheritance and remove all inherited permissions. </p>
+<p> Next, click Add, make sure that "Write" permissions are checked. Click "Select a princpial", enter "everyone", and select "Check Names". BE SURE TO APPLY CHANGES</p>
+
+
+<table>
+  <tr>
+    <td><img width="650" alt="Screenshot 2025-01-08 at 8 56 57 PM" src="https://github.com/user-attachments/assets/b561048b-dceb-4fd8-ae99-1b24a739ee07" />
+</td>
+   <td> <img width="650" alt="Screenshot 2025-01-08 at 9 02 44 PM" src="https://github.com/user-attachments/assets/4aed2803-cf8c-4761-a079-0aa70ca0eccb" />
+   </td>
+  </tr>
+</table>
+<p>Back in our browser, we can click continue and set up osTicket. All of the information here can be filled to your liking. Do not fill it out completely, we will come back to it.</p>
+
+
+<table>
+  <tr>
+    <td><img width="650" alt="Screenshot 2025-01-08 at 9 04 12 PM" src="https://github.com/user-attachments/assets/0fc360d3-293a-4811-94c7-6fc46a246447" />
+</td>
+   <td><img width="650" alt="Screenshot 2025-01-08 at 9 04 34 PM" src="https://github.com/user-attachments/assets/e9633a2d-af90-4ea9-bcc6-f58364fffff9" />
+   </td>
+    <td><img width="650" alt="Screenshot 2025-01-08 at 9 05 43 PM" src="https://github.com/user-attachments/assets/46176af4-64c7-4b26-8a07-abe7fade1d48" />
+</td>
+  </tr>
+</table>
+<p>
+From the “osTicket-Installation-Files” folder, install HeidiSQL.
+Open Heidi SQL,
+create a new session, enter root/root, click open and
+create a database called “osTicket”
+</p>
+
+<p> Back in the browser, fill out the remaining blanks.
+  
+<P>MySQL Database: osTicket</P>
+<p>
+MySQL Username: root</p>
+<p>
+MySQL Password: root</p>
+<P>
+Click “Install Now!”
+</P>
+
+<table>
+  <tr>
+    <td><img width="650" alt="Screenshot 2025-01-08 at 9 07 17 PM" src="https://github.com/user-attachments/assets/23e46087-94d8-417b-a8a7-d6dd1a2cf14f" />
+</td>
+</td>
+   <td> <img width="650" alt="Screenshot 2025-01-08 at 9 08 03 PM" src="https://github.com/user-attachments/assets/a95ee108-be63-4c13-9878-4a6b34039a8e" />
+   </td>
+  </tr>
+</table>
+
+<p>Congrajulations! Your osTicket is now setup. Browse to your help desk login page: http://localhost/osTicket/scp/login.php</p>
