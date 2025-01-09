@@ -186,10 +186,6 @@ Now refresh the osTicket site in your browser.
 </td>
    <td> <img width="361" alt="Screenshot 2025-01-08 at 8 55 06 PM" src="https://github.com/user-attachments/assets/c4b2d4c2-57e7-4a96-b871-50f7d113818b" />
    </td>
-    <td><img width="764" alt="Screenshot 2025-01-08 at 8 55 20 PM" src="https://github.com/user-attachments/assets/41319f9f-dfe7-4596-b879-c13408038197" />
-</td>
-    <td><img width="913" alt="Screenshot 2025-01-08 at 8 56 06 PM" src="https://github.com/user-attachments/assets/041b39d6-0ae4-420d-9f93-9e1be8aa6caa" />
-</td>
   </tr>
 </table>
 
@@ -201,6 +197,15 @@ From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
 <p>From ost-config.php, right click to access properties and select Advanced. We will disable inheritance and remove all inherited permissions. </p>
+<table>
+  <tr>
+ <td><img width="764" alt="Screenshot 2025-01-08 at 8 55 20 PM" src="https://github.com/user-attachments/assets/41319f9f-dfe7-4596-b879-c13408038197" />
+</td>
+    <td><img width="913" alt="Screenshot 2025-01-08 at 8 56 06 PM" src="https://github.com/user-attachments/assets/041b39d6-0ae4-420d-9f93-9e1be8aa6caa" />
+</td>
+  </tr>
+</table>
+  </tr>
 <p> Next, click Add, make sure that "Write" permissions are checked. Click "Select a princpial", enter "everyone", and select "Check Names". BE SURE TO APPLY CHANGES</p>
 
 
