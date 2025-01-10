@@ -115,16 +115,6 @@ Password: root
 
 <table>
   <tr>
-    <td><img width="413" alt="Screenshot 2025-01-08 at 8 05 02 PM" src="https://github.com/user-attachments/assets/9ddc0e56-bb4b-4a5f-b5dc-bb59d96c83f0" />
-</td>
-  </tr>
-</table>
-Expand IIS and click World Wide Web Services -> Application Development Features -> and check the CGI box
-</p>
-<br />
-
-<table>
-  <tr>
     <td>
 <img width="700" alt="Screenshot 2025-01-08 at 8 25 47 PM" src="https://github.com/user-attachments/assets/9e26b0cb-0635-41d4-bb08-a39967209695" />
     </td>
@@ -150,7 +140,7 @@ Expand IIS and click World Wide Web Services -> Application Development Features
   </tr>
 </table>
 <p>At this point, STOP and START the IIS. From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
-Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”. Once all is completed, STOP and START the IIS again.</p>
+Within “c:\inetpub\wwwroot”, rename “upload” to “osTicket”. Once all is completed, STOP and START the IIS again.</p>
 
 <table>
   <tr>
